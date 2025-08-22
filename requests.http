@@ -1,0 +1,25 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PhpStorm
+
+###
+
+POST https://jsonplaceholder.typicode.com/todos
+Content-Type: application/json
+
+{
+    "user_id": 10,
+    "name": "Leo"
+}
+
+###
+
+POST http://localhost/api/userJson
+Content-Type: application/json
+
+{
+    "id": 10,
+    "nome": "Leo"
+}
+
+
